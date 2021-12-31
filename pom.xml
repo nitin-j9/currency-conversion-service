@@ -10,7 +10,7 @@
 	<packaging>jar</packaging>
 
 	<name>currency-conversion-service</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Spring Cloud Project (Currency Conversion Service) by In28Minutes</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -29,6 +29,10 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
@@ -41,6 +45,10 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
 		<dependency>
